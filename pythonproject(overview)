@@ -1,0 +1,31 @@
+Project Description
+This project analyzes Pokémon data using Python and various data analysis libraries. It focuses on identifying patterns,
+trends, and insights from a Pokémon dataset, including type distributions, statistical summaries, and visualization-based insights.  
+
+Key Features & Analysis
+
+Data Loading & Preprocessing
+   - Uses **Pandas** to read Pokémon data from an Excel file.  
+   - Cleans and structures the dataset for analysis.  
+
+Exploratory Data Analysis (EDA)
+   - Identifies the **most common Pokémon types**.  
+   - Uses grouping and sorting to determine Pokémon distribution by type.  
+   - Detects **outliers** in Pokémon statistics (e.g., Base Total) using the **IQR method**.  
+
+Statistical Insights 
+   - Computes key percentiles to understand Pokémon attributes.  
+   - Identifies Pokémon with significantly higher or lower base stats.  
+
+Data Visualization 
+   - Uses Matplotlib and Seaborn to create graphs and visualizations  
+   - Displays Pokémon distribution across different categories.  
+
+Technologies Used 
+- Python  
+- Pandas (Data Manipulation)  
+- Matplotlib & Seaborn (Data Visualization)  
+- NumPy (Statistical Analysis)  
+
+
+
