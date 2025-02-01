@@ -1,0 +1,70 @@
+Project Overview: Retail Analytics Dashboard for Sales, stock, and Customer Insights
+
+This project is a comprehensive retail analytics dashboard designed to provide actionable insights into
+sales performance, stock management, and customer behavior.
+By leveraging data visualization and advanced analytics, the dashboard helps businesses optimize operations, improve customer retention, and drive growth.
+The project is divided into four main pages, each focusing on a specific aspect of retail operations.
+
+---
+
+Sales Analysis Page
+   - Objective: Analyze sales performance across different dimensions such as time, region, and product categories.
+   Key Features:
+     - Sales by State: Visualize total sales for each state to identify high-performing regions.
+     - Sales Growth Metrics:
+       - Year-over-Year (YoY) growth: Compare current sales with the same period last year.
+       - Month-over-Month (MoM) growth: Compare current sales with the previous month.
+     - Comparative Analysis:
+       - Sales vs. the same period last year.
+       - Sales vs. the previous month.
+     - Top 10 Cities by Sales: Identify the top-performing cities based on sales data.
+   - Visualizations:
+     - Interactive line charts for monthly sales trends.
+     - Bar charts for YoY and MoM growth.
+     - Heatmaps for regional sales performance.
+ 
+---
+
+Stock Analysis Page
+   - Objective: Monitor and optimize stock levels to ensure efficient stock management.
+   Key Features:
+     - Total Stock: Overview of total stock count.
+     - Current Stock Levels:
+       - By category, size, and color.
+       - Latest stock counts for each product type.
+     - Stock Trends: Analyze stock trends over time to identify patterns.
+     - Stock Alerts: Highlight low stock levels or overstocked items.
+   - Visualizations:
+     - Pie charts for stock distribution by category.
+     - Bar charts for stock levels by size and color.
+     - Time-series charts for stock trends.
+
+---
+
+ Churn Analysis Page
+   - Objective: Analyze customer churn and retention to improve customer loyalty and acquisition strategies.
+    Key Features:
+     - Churned Customers: Identify customers who have not made a purchase in the last 300 days .
+     - New Customers: Track customers who made their first purchase within the last 100 days .
+     - Churn and New Customers by City and Category: Breakdown of customer behavior by location and product category.
+     - Top 15 States by Customer Count: Analyze new and churned customers in the top-performing states.
+   - Visualizations:
+     - Bar charts for churned and new customers by city and category.
+     - Heatmaps for customer distribution across states.
+  
+---
+
+Map Page
+   - Objective: Provide a geographical overview of sales and stock data.
+   Key Features:
+     - Sales by State: Visualize total sales for each state on an interactive map.
+     - Stock by State: Display current stock levels by state.
+   - Visualizations:
+     - Interactive choropleth maps for sales and stock distribution.
+---
+
+Technical Details:
+Data Structure:
+  - Sales Data: Year, Month, State, Category, Sales.
+  - Stock Data: Year, Month, Category, Size, Color, Stock Count.
+  - Customer Data: City, State, Category, Purchase History.
