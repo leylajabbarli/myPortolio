@@ -1,0 +1,35 @@
+Project Overview: Market Basket Analysis (Retail Market Basket Analysis)
+This project focuses on analyzing customer purchasing behavior in retail by examining product sales data. 
+The goal is to identify frequently purchased products based on the day of the week and time of day, as well as to determine
+the likelihood of products being purchased together. The analysis is divided into three main components:
+
+---
+ "Best cart with 3 products" Page
+   - Objective: Identify the most frequently co-purchased products and calculate their probabilities of appearing together in the same basket.
+   - Steps:
+     1. Product Pair Analysis: Determine how often each product appears in the same basket as another product. For example, how many times are "bread" and "milk" purchased together?
+     2. Top Pairs: Identify the most frequent pair for each product. For example, "bread" is most often purchased with "milk."
+     3. Top Triplets: Find the third product most frequently purchased with a given pair. For example, "bread" and "milk" are most often purchased with "cheese."
+     4. Probability Calculation: Compute the probabilities of these pairs and triplets appearing together in the same basket.
+
+---
+
+ "Top Triplets by Hour" Page
+   - Objective: Analyze sales data to identify the most sold products during specific hours of the day.
+   - Steps:
+     1. Group Sales by Hour: Organize sales data into some time intervals 
+     2. Top Products per Hour: Identify the top 3 most sold products for each hour.
+     3. Top Triplets per Hour: Determine the top 3 products most frequently purchased together during each hour.
+
+ "Top Triplets by Weekday" Page
+   - Objective: Analyze sales data to identify the most sold products on specific days of the week.
+   - Steps:
+     1. Group Sales by Weekday: Organize sales data by days of the week (e.g., Monday, Tuesday, etc.).
+     2. Top Products per Day: Identify the top 3 most sold products for each day.
+     3. Top Triplets per Day: Determine the top 3 products most frequently purchased together on each day.
+---
+
+Technical Details:
+ Data Structure:
+  - Each basket consists of products purchased by the same `Member_number` at the same time.
+  - The dataset includes product names, dates, times, and member numbers.
