@@ -18,11 +18,7 @@ Sales Analysis Page
        - Sales vs. the same period last year.
        - Sales vs. the previous month.
      - Top 10 Cities by Sales: Identify the top-performing cities based on sales data.
-   - Visualizations:
-     - Interactive line charts for monthly sales trends.
-     - Bar charts for YoY and MoM growth.
-     - Heatmaps for regional sales performance.
- 
+   
 ---
 
 Stock Analysis Page
@@ -34,11 +30,6 @@ Stock Analysis Page
        - Latest stock counts for each product type.
      - Stock Trends: Analyze stock trends over time to identify patterns.
      - Stock Alerts: Highlight low stock levels or overstocked items.
-   - Visualizations:
-     - Pie charts for stock distribution by category.
-     - Bar charts for stock levels by size and color.
-     - Time-series charts for stock trends.
-
 ---
 
  Churn Analysis Page
@@ -48,10 +39,7 @@ Stock Analysis Page
      - New Customers: Track customers who made their first purchase within the last 100 days .
      - Churn and New Customers by City and Category: Breakdown of customer behavior by location and product category.
      - Top 15 States by Customer Count: Analyze new and churned customers in the top-performing states.
-   - Visualizations:
-     - Bar charts for churned and new customers by city and category.
-     - Heatmaps for customer distribution across states.
-  
+
 ---
 
 Map Page
@@ -59,8 +47,6 @@ Map Page
    Key Features:
      - Sales by State: Visualize total sales for each state on an interactive map.
      - Stock by State: Display current stock levels by state.
-   - Visualizations:
-     - Interactive choropleth maps for sales and stock distribution.
 ---
 
 Technical Details:
