@@ -21,7 +21,7 @@ Data Visualization
    - Uses Matplotlib and Seaborn to create graphs and visualizations  
    - Displays Pokémon distribution across different categories.  
 
-Technologies Used 
+Tools Used 
 - Python  
 - Pandas (Data Manipulation)  
 - Matplotlib & Seaborn (Data Visualization)  
