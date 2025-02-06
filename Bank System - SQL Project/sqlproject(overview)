@@ -1,58 +1,60 @@
-# Bank Management System
+Bank Management System
 
-## Project Overview
+ Project Overview
 
-The **Bank Management System (BMS)** is designed to efficiently handle and automate key banking operations such as customer management, account creation, transaction recording, loan processing, and balance tracking. This system is built to streamline banking processes, ensuring accuracy, real-time updates, and reliable record-keeping.
+The Bank Management System (BMS) is designed to efficiently handle and automate key banking operations such as customer management, account creation,
+transaction recording, loan processing, and balance tracking. This system is built to streamline banking processes, ensuring accuracy, real-time updates,
+and reliable record-keeping.
 
-### **Core Features:**
+ Core Features:
 
-1.  **Customer Management:** 
-    *   **Adding New Customers:** Enables seamless registration of new customers by storing essential details like name, contact information, and other personal data.
-    *   **Customer Profile Management:** Each customer’s profile is managed centrally, linking them to accounts, transactions, and loans for an integrated banking experience.
+1.  Customer Management: 
+       Adding New Customers: Enables seamless registration of new customers by storing essential details like name, contact information, and other personal data.
+       Customer Profile Management: Each customer’s profile is managed centrally, linking them to accounts, transactions, and loans for an integrated banking experience.
 
-2.  **Account Management:**
-    *   **Account Creation:** Facilitates the opening of various types of accounts (e.g., checking, savings) for customers.
-    *   **Balance Updates:** Accounts are updated automatically whenever transactions occur, reflecting accurate balances in real time.
+2.  Account Management:
+       Account Creation: Facilitates the opening of various types of accounts (e.g., checking, savings) for customers.
+       Balance Updates: Accounts are updated automatically whenever transactions occur, reflecting accurate balances in real time.
 
-3.  **Transaction Management:**
-    *   **Transaction Recording:** Every deposit, withdrawal, and transfer is recorded with details like transaction type, amount, and date.
-    *   **Balance Adjustment:** The system ensures automatic account balance adjustments according to transaction types, supporting both deposits and withdrawals.
+3.  Transaction Management:
+       Transaction Recording: Every deposit, withdrawal, and transfer is recorded with details like transaction type, amount, and date.
+       Balance Adjustment: The system ensures automatic account balance adjustments according to transaction types, supporting both deposits and withdrawals.
 
-4.  **Loan Management:**
-    *   **Loan Issuance:** Customers can apply for loans, with details recorded for each loan such as the amount and date.
-    *   **Loan Summary:** The system tracks outstanding loans, providing a complete view of each customer’s loan liabilities.
+4.  Loan Management:
+       Loan Issuance: Customers can apply for loans, with details recorded for each loan such as the amount and date.
+       Loan Summary: The system tracks outstanding loans, providing a complete view of each customer’s loan liabilities.
 
-5.  **Reports & Analytics:**
-    *   **Transaction History:** Customers can retrieve a history of their financial transactions for easy reference.
-    *   **Balance & Loan Summaries:** Offers detailed insights into account balances and loan amounts, helping customers monitor their financial situation.
+5.  Reports & Analytics:
+       Transaction History: Customers can retrieve a history of their financial transactions for easy reference.
+       Balance & Loan Summaries: Offers detailed insights into account balances and loan amounts, helping customers monitor their financial situation.
 
-### **Technology Stack:**
+ Technology Stack:
 
-*   **Oracle Database:** The backbone of the system, providing a secure and efficient platform to store all customer, account, transaction, and loan data.
-*   **SQL & PL/SQL:** SQL is used for querying and modifying data, while PL/SQL is employed for implementing business logic through stored procedures, functions, and triggers.
+   Oracle Database: The backbone of the system, providing a secure and efficient platform to store all customer, account, transaction, and loan data.
+   SQL & PL/SQL: SQL is used for querying and modifying data, while PL/SQL is employed for implementing business logic through stored procedures, functions, and triggers.
 
-### **Database Features Implemented:**
+ Database Features Implemented:
 
-*   **Tables:** Key tables such as `customers`, `accounts`, `transactions`, and `loans` were created to store core banking data.
-*   **Stored Procedures & Packages:** A set of procedures and packages were developed for common operations like adding new customers, creating accounts, processing transactions, and issuing loans.
-*   **Triggers:** Triggers were used to enforce business rules, such as preventing negative account balances and ensuring transaction consistency.
+   Tables: Key tables such as `customers`, `accounts`, `transactions`, and `loans` were created to store core banking data.
+   Stored Procedures & Packages: A set of procedures and packages were developed for common operations like adding new customers, creating accounts, processing transactions, and issuing loans.
+   Triggers: Triggers were used to enforce business rules, such as preventing negative account balances and ensuring transaction consistency.
 
-### **Business Logic & Automation:**
+ Business Logic & Automation:
 
 The system implements automated processes for transaction processing, account balance updates, and loan calculations. Key logic, such as preventing withdrawals that result in negative balances, is handled by triggers and stored procedures. This ensures that transactions are processed correctly and that account balances are updated accurately based on transaction types (e.g., deposit or withdrawal).
 
-### **Challenges Addressed:**
+ Challenges Addressed:
 
-*   **Negative Balances:** The system uses business logic to prevent negative balances, ensuring that customers can only withdraw funds when sufficient balance is available.
-*   **Data Integrity:** Various constraints and checks were implemented to maintain the integrity of the data, ensuring that the system operates smoothly and accurately.
-*   **Complex Transactions:** The complexity of handling transactions, including loans and balance adjustments, was addressed with well-designed stored procedures and triggers that ensure the integrity and correctness of every transaction.
+   Negative Balances: The system uses business logic to prevent negative balances, ensuring that customers can only withdraw funds when sufficient balance is available.
+   Data Integrity: Various constraints and checks were implemented to maintain the integrity of the data, ensuring that the system operates smoothly and accurately.
+   Complex Transactions: The complexity of handling transactions, including loans and balance adjustments, was addressed with well-designed stored procedures and triggers that ensure the integrity and correctness of every transaction.
 
 ----------
-*   **Automated Reporting:** Future improvements could include automated reports for transactions, account balances, and loan summaries.
-*   **Security Features:** Enhancements can be made to secure customer data with multi-level authentication and authorization mechanisms.
-*   **Loan Interest Calculation:** Adding functionality for calculating interest on loans and providing repayment schedules for customers.
+   Automated Reporting: Future improvements could include automated reports for transactions, account balances, and loan summaries.
+   Security Features: Enhancements can be made to secure customer data with multi-level authentication and authorization mechanisms.
+   Loan Interest Calculation: Adding functionality for calculating interest on loans and providing repayment schedules for customers.
 
-## **Conclusion:**
+ Conclusion:
 
 The Bank Management System project provides a comprehensive solution for managing the critical operations of a bank.
 With efficient use of Oracle SQL and PL/SQL, the system ensures accuracy, speed, and automation in handling customer accounts,
